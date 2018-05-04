@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2D2B49EE209C5B9200CE5A2A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2B49ED209C5B9200CE5A2A /* AppDelegate.swift */; };
+		2D2B49F0209C5B9200CE5A2A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2B49EF209C5B9200CE5A2A /* ViewController.swift */; };
+		2D2B49F3209C5B9200CE5A2A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D2B49F1209C5B9200CE5A2A /* Main.storyboard */; };
+		2D2B49F5209C5B9400CE5A2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D2B49F4209C5B9400CE5A2A /* Assets.xcassets */; };
+		2D2B49F8209C5B9400CE5A2A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D2B49F6209C5B9400CE5A2A /* LaunchScreen.storyboard */; };
+		2D2B4A03209C5B9400CE5A2A /* CobaCallTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2B4A02209C5B9400CE5A2A /* CobaCallTests.swift */; };
+		2D2B4A0E209C5B9500CE5A2A /* CobaCallUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2B4A0D209C5B9500CE5A2A /* CobaCallUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2D2B49FF209C5B9400CE5A2A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D2B49E2209C5B9200CE5A2A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D2B49E9209C5B9200CE5A2A;
+			remoteInfo = CobaCall;
+		};
+		2D2B4A0A209C5B9500CE5A2A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D2B49E2209C5B9200CE5A2A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D2B49E9209C5B9200CE5A2A;
+			remoteInfo = CobaCall;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2D2B49EA209C5B9200CE5A2A /* CobaCall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CobaCall.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D2B49ED209C5B9200CE5A2A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2D2B49EF209C5B9200CE5A2A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2D2B49F2209C5B9200CE5A2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2D2B49F4209C5B9400CE5A2A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2D2B49F7209C5B9400CE5A2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2D2B49F9209C5B9400CE5A2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D2B49FE209C5B9400CE5A2A /* CobaCallTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CobaCallTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D2B4A02209C5B9400CE5A2A /* CobaCallTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CobaCallTests.swift; sourceTree = "<group>"; };
+		2D2B4A04209C5B9400CE5A2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D2B4A09209C5B9400CE5A2A /* CobaCallUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CobaCallUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D2B4A0D209C5B9500CE5A2A /* CobaCallUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CobaCallUITests.swift; sourceTree = "<group>"; };
+		2D2B4A0F209C5B9500CE5A2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2D2B49E7209C5B9200CE5A2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D2B49FB209C5B9400CE5A2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D2B4A06209C5B9400CE5A2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2D2B49E1209C5B9200CE5A2A = {
+			isa = PBXGroup;
+			children = (
+				2D2B49EC209C5B9200CE5A2A /* CobaCall */,
+				2D2B4A01209C5B9400CE5A2A /* CobaCallTests */,
+				2D2B4A0C209C5B9500CE5A2A /* CobaCallUITests */,
+				2D2B49EB209C5B9200CE5A2A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2D2B49EB209C5B9200CE5A2A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2D2B49EA209C5B9200CE5A2A /* CobaCall.app */,
+				2D2B49FE209C5B9400CE5A2A /* CobaCallTests.xctest */,
+				2D2B4A09209C5B9400CE5A2A /* CobaCallUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2D2B49EC209C5B9200CE5A2A /* CobaCall */ = {
+			isa = PBXGroup;
+			children = (
+				2D2B49ED209C5B9200CE5A2A /* AppDelegate.swift */,
+				2D2B49EF209C5B9200CE5A2A /* ViewController.swift */,
+				2D2B49F1209C5B9200CE5A2A /* Main.storyboard */,
+				2D2B49F4209C5B9400CE5A2A /* Assets.xcassets */,
+				2D2B49F6209C5B9400CE5A2A /* LaunchScreen.storyboard */,
+				2D2B49F9209C5B9400CE5A2A /* Info.plist */,
+			);
+			path = CobaCall;
+			sourceTree = "<group>";
+		};
+		2D2B4A01209C5B9400CE5A2A /* CobaCallTests */ = {
+			isa = PBXGroup;
+			children = (
+				2D2B4A02209C5B9400CE5A2A /* CobaCallTests.swift */,
+				2D2B4A04209C5B9400CE5A2A /* Info.plist */,
+			);
+			path = CobaCallTests;
+			sourceTree = "<group>";
+		};
+		2D2B4A0C209C5B9500CE5A2A /* CobaCallUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2D2B4A0D209C5B9500CE5A2A /* CobaCallUITests.swift */,
+				2D2B4A0F209C5B9500CE5A2A /* Info.plist */,
+			);
+			path = CobaCallUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2D2B49E9209C5B9200CE5A2A /* CobaCall */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D2B4A12209C5B9500CE5A2A /* Build configuration list for PBXNativeTarget "CobaCall" */;
+			buildPhases = (
+				2D2B49E6209C5B9200CE5A2A /* Sources */,
+				2D2B49E7209C5B9200CE5A2A /* Frameworks */,
+				2D2B49E8209C5B9200CE5A2A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CobaCall;
+			productName = CobaCall;
+			productReference = 2D2B49EA209C5B9200CE5A2A /* CobaCall.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2D2B49FD209C5B9400CE5A2A /* CobaCallTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D2B4A15209C5B9500CE5A2A /* Build configuration list for PBXNativeTarget "CobaCallTests" */;
+			buildPhases = (
+				2D2B49FA209C5B9400CE5A2A /* Sources */,
+				2D2B49FB209C5B9400CE5A2A /* Frameworks */,
+				2D2B49FC209C5B9400CE5A2A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D2B4A00209C5B9400CE5A2A /* PBXTargetDependency */,
+			);
+			name = CobaCallTests;
+			productName = CobaCallTests;
+			productReference = 2D2B49FE209C5B9400CE5A2A /* CobaCallTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2D2B4A08209C5B9400CE5A2A /* CobaCallUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D2B4A18209C5B9500CE5A2A /* Build configuration list for PBXNativeTarget "CobaCallUITests" */;
+			buildPhases = (
+				2D2B4A05209C5B9400CE5A2A /* Sources */,
+				2D2B4A06209C5B9400CE5A2A /* Frameworks */,
+				2D2B4A07209C5B9400CE5A2A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D2B4A0B209C5B9500CE5A2A /* PBXTargetDependency */,
+			);
+			name = CobaCallUITests;
+			productName = CobaCallUITests;
+			productReference = 2D2B4A09209C5B9400CE5A2A /* CobaCallUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2D2B49E2209C5B9200CE5A2A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = qiscus;
+				TargetAttributes = {
+					2D2B49E9209C5B9200CE5A2A = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					2D2B49FD209C5B9400CE5A2A = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 2D2B49E9209C5B9200CE5A2A;
+					};
+					2D2B4A08209C5B9400CE5A2A = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 2D2B49E9209C5B9200CE5A2A;
+					};
+				};
+			};
+			buildConfigurationList = 2D2B49E5209C5B9200CE5A2A /* Build configuration list for PBXProject "CobaCall" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2D2B49E1209C5B9200CE5A2A;
+			productRefGroup = 2D2B49EB209C5B9200CE5A2A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2D2B49E9209C5B9200CE5A2A /* CobaCall */,
+				2D2B49FD209C5B9400CE5A2A /* CobaCallTests */,
+				2D2B4A08209C5B9400CE5A2A /* CobaCallUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2D2B49E8209C5B9200CE5A2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D2B49F8209C5B9400CE5A2A /* LaunchScreen.storyboard in Resources */,
+				2D2B49F5209C5B9400CE5A2A /* Assets.xcassets in Resources */,
+				2D2B49F3209C5B9200CE5A2A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D2B49FC209C5B9400CE5A2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D2B4A07209C5B9400CE5A2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2D2B49E6209C5B9200CE5A2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D2B49F0209C5B9200CE5A2A /* ViewController.swift in Sources */,
+				2D2B49EE209C5B9200CE5A2A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D2B49FA209C5B9400CE5A2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D2B4A03209C5B9400CE5A2A /* CobaCallTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D2B4A05209C5B9400CE5A2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D2B4A0E209C5B9500CE5A2A /* CobaCallUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2D2B4A00209C5B9400CE5A2A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2D2B49E9209C5B9200CE5A2A /* CobaCall */;
+			targetProxy = 2D2B49FF209C5B9400CE5A2A /* PBXContainerItemProxy */;
+		};
+		2D2B4A0B209C5B9500CE5A2A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2D2B49E9209C5B9200CE5A2A /* CobaCall */;
+			targetProxy = 2D2B4A0A209C5B9500CE5A2A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2D2B49F1209C5B9200CE5A2A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D2B49F2209C5B9200CE5A2A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2D2B49F6209C5B9400CE5A2A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D2B49F7209C5B9400CE5A2A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2D2B4A10209C5B9500CE5A2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2D2B4A11209C5B9500CE5A2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2D2B4A13209C5B9500CE5A2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QG8KA4P8TE;
+				INFOPLIST_FILE = CobaCall/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.qiscus.CobaCall;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2D2B4A14209C5B9500CE5A2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QG8KA4P8TE;
+				INFOPLIST_FILE = CobaCall/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.qiscus.CobaCall;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2D2B4A16209C5B9500CE5A2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QG8KA4P8TE;
+				INFOPLIST_FILE = CobaCallTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.qiscus.CobaCallTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CobaCall.app/CobaCall";
+			};
+			name = Debug;
+		};
+		2D2B4A17209C5B9500CE5A2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QG8KA4P8TE;
+				INFOPLIST_FILE = CobaCallTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.qiscus.CobaCallTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CobaCall.app/CobaCall";
+			};
+			name = Release;
+		};
+		2D2B4A19209C5B9500CE5A2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QG8KA4P8TE;
+				INFOPLIST_FILE = CobaCallUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.qiscus.CobaCallUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CobaCall;
+			};
+			name = Debug;
+		};
+		2D2B4A1A209C5B9500CE5A2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QG8KA4P8TE;
+				INFOPLIST_FILE = CobaCallUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.qiscus.CobaCallUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CobaCall;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D2B49E5209C5B9200CE5A2A /* Build configuration list for PBXProject "CobaCall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D2B4A10209C5B9500CE5A2A /* Debug */,
+				2D2B4A11209C5B9500CE5A2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D2B4A12209C5B9500CE5A2A /* Build configuration list for PBXNativeTarget "CobaCall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D2B4A13209C5B9500CE5A2A /* Debug */,
+				2D2B4A14209C5B9500CE5A2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D2B4A15209C5B9500CE5A2A /* Build configuration list for PBXNativeTarget "CobaCallTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D2B4A16209C5B9500CE5A2A /* Debug */,
+				2D2B4A17209C5B9500CE5A2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D2B4A18209C5B9500CE5A2A /* Build configuration list for PBXNativeTarget "CobaCallUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D2B4A19209C5B9500CE5A2A /* Debug */,
+				2D2B4A1A209C5B9500CE5A2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2D2B49E2209C5B9200CE5A2A /* Project object */;
+}
