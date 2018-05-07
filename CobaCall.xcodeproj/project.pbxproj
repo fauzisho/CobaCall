@@ -14,6 +14,10 @@
 		2D2B49F8209C5B9400CE5A2A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D2B49F6209C5B9400CE5A2A /* LaunchScreen.storyboard */; };
 		2D2B4A03209C5B9400CE5A2A /* CobaCallTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2B4A02209C5B9400CE5A2A /* CobaCallTests.swift */; };
 		2D2B4A0E209C5B9500CE5A2A /* CobaCallUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2B4A0D209C5B9500CE5A2A /* CobaCallUITests.swift */; };
+		2D2B4A1C209C60A500CE5A2A /* CallSDK.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2B4A1B209C60A500CE5A2A /* CallSDK.swift */; };
+		BBACEBA7D86E8EE5BA81D2BB /* Pods_CobaCallUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9033F951D4F4D078612DC18 /* Pods_CobaCallUITests.framework */; };
+		DF9C5084E6BB52DE93D80881 /* Pods_CobaCallTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41791167F29C85392E7ACDA8 /* Pods_CobaCallTests.framework */; };
+		EB8373523D891D0557CE901F /* Pods_CobaCall.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83039C9B8E8BD2DE7896B346 /* Pods_CobaCall.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,16 @@
 		2D2B4A09209C5B9400CE5A2A /* CobaCallUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CobaCallUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D2B4A0D209C5B9500CE5A2A /* CobaCallUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CobaCallUITests.swift; sourceTree = "<group>"; };
 		2D2B4A0F209C5B9500CE5A2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D2B4A1B209C60A500CE5A2A /* CallSDK.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallSDK.swift; sourceTree = "<group>"; };
+		3ED01319EF8EA0C65FEFA59B /* Pods-CobaCallTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CobaCallTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CobaCallTests/Pods-CobaCallTests.release.xcconfig"; sourceTree = "<group>"; };
+		41791167F29C85392E7ACDA8 /* Pods_CobaCallTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CobaCallTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		43E5912A56C759F135CD56D6 /* Pods-CobaCall.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CobaCall.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CobaCall/Pods-CobaCall.debug.xcconfig"; sourceTree = "<group>"; };
+		44731B862CEC7DF56F79E0E4 /* Pods-CobaCallUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CobaCallUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CobaCallUITests/Pods-CobaCallUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		478EFF5E84D79E38D93AE851 /* Pods-CobaCallTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CobaCallTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CobaCallTests/Pods-CobaCallTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7B73E3BB9E221FF335D7D600 /* Pods-CobaCall.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CobaCall.release.xcconfig"; path = "Pods/Target Support Files/Pods-CobaCall/Pods-CobaCall.release.xcconfig"; sourceTree = "<group>"; };
+		83039C9B8E8BD2DE7896B346 /* Pods_CobaCall.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CobaCall.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C573204D337E235DFB64EF85 /* Pods-CobaCallUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CobaCallUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CobaCallUITests/Pods-CobaCallUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C9033F951D4F4D078612DC18 /* Pods_CobaCallUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CobaCallUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB8373523D891D0557CE901F /* Pods_CobaCall.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF9C5084E6BB52DE93D80881 /* Pods_CobaCallTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBACEBA7D86E8EE5BA81D2BB /* Pods_CobaCallUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +98,8 @@
 				2D2B4A01209C5B9400CE5A2A /* CobaCallTests */,
 				2D2B4A0C209C5B9500CE5A2A /* CobaCallUITests */,
 				2D2B49EB209C5B9200CE5A2A /* Products */,
+				464EB4DF99E27C603EB6D143 /* Pods */,
+				E622015F5581D4F32A715D11 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +122,7 @@
 				2D2B49F4209C5B9400CE5A2A /* Assets.xcassets */,
 				2D2B49F6209C5B9400CE5A2A /* LaunchScreen.storyboard */,
 				2D2B49F9209C5B9400CE5A2A /* Info.plist */,
+				2D2B4A1B209C60A500CE5A2A /* CallSDK.swift */,
 			);
 			path = CobaCall;
 			sourceTree = "<group>";
@@ -125,6 +145,29 @@
 			path = CobaCallUITests;
 			sourceTree = "<group>";
 		};
+		464EB4DF99E27C603EB6D143 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				43E5912A56C759F135CD56D6 /* Pods-CobaCall.debug.xcconfig */,
+				7B73E3BB9E221FF335D7D600 /* Pods-CobaCall.release.xcconfig */,
+				478EFF5E84D79E38D93AE851 /* Pods-CobaCallTests.debug.xcconfig */,
+				3ED01319EF8EA0C65FEFA59B /* Pods-CobaCallTests.release.xcconfig */,
+				44731B862CEC7DF56F79E0E4 /* Pods-CobaCallUITests.debug.xcconfig */,
+				C573204D337E235DFB64EF85 /* Pods-CobaCallUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E622015F5581D4F32A715D11 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				83039C9B8E8BD2DE7896B346 /* Pods_CobaCall.framework */,
+				41791167F29C85392E7ACDA8 /* Pods_CobaCallTests.framework */,
+				C9033F951D4F4D078612DC18 /* Pods_CobaCallUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +175,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D2B4A12209C5B9500CE5A2A /* Build configuration list for PBXNativeTarget "CobaCall" */;
 			buildPhases = (
+				99671C3953269571C8F2FF3F /* [CP] Check Pods Manifest.lock */,
 				2D2B49E6209C5B9200CE5A2A /* Sources */,
 				2D2B49E7209C5B9200CE5A2A /* Frameworks */,
 				2D2B49E8209C5B9200CE5A2A /* Resources */,
+				2DEA4673C7BFCCC1B09B7C96 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +194,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D2B4A15209C5B9500CE5A2A /* Build configuration list for PBXNativeTarget "CobaCallTests" */;
 			buildPhases = (
+				AE17CDA8F35D20EEBC212032 /* [CP] Check Pods Manifest.lock */,
 				2D2B49FA209C5B9400CE5A2A /* Sources */,
 				2D2B49FB209C5B9400CE5A2A /* Frameworks */,
 				2D2B49FC209C5B9400CE5A2A /* Resources */,
@@ -167,6 +213,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D2B4A18209C5B9500CE5A2A /* Build configuration list for PBXNativeTarget "CobaCallUITests" */;
 			buildPhases = (
+				89BDB797AF9E5081C9A50510 /* [CP] Check Pods Manifest.lock */,
 				2D2B4A05209C5B9400CE5A2A /* Sources */,
 				2D2B4A06209C5B9400CE5A2A /* Frameworks */,
 				2D2B4A07209C5B9400CE5A2A /* Resources */,
@@ -251,11 +298,93 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2DEA4673C7BFCCC1B09B7C96 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CobaCall/Pods-CobaCall-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+				"${BUILT_PRODUCTS_DIR}/QiscusCallSDKWrapper/QiscusCallSDKWrapper.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/QiscusCallSDKWrapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CobaCall/Pods-CobaCall-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		89BDB797AF9E5081C9A50510 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CobaCallUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		99671C3953269571C8F2FF3F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CobaCall-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AE17CDA8F35D20EEBC212032 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CobaCallTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2D2B49E6209C5B9200CE5A2A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D2B4A1C209C60A500CE5A2A /* CallSDK.swift in Sources */,
 				2D2B49F0209C5B9200CE5A2A /* ViewController.swift in Sources */,
 				2D2B49EE209C5B9200CE5A2A /* AppDelegate.swift in Sources */,
 			);
@@ -428,11 +557,16 @@
 		};
 		2D2B4A13209C5B9500CE5A2A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43E5912A56C759F135CD56D6 /* Pods-CobaCall.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QG8KA4P8TE;
+				ENABLE_BITCODE = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				"GCC_WARN_64_TO_32_BIT_CONVERSION[arch=*64]" = YES;
 				INFOPLIST_FILE = CobaCall/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -446,11 +580,14 @@
 		};
 		2D2B4A14209C5B9500CE5A2A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B73E3BB9E221FF335D7D600 /* Pods-CobaCall.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QG8KA4P8TE;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = CobaCall/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -464,6 +601,7 @@
 		};
 		2D2B4A16209C5B9500CE5A2A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 478EFF5E84D79E38D93AE851 /* Pods-CobaCallTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -485,6 +623,7 @@
 		};
 		2D2B4A17209C5B9500CE5A2A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3ED01319EF8EA0C65FEFA59B /* Pods-CobaCallTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -506,6 +645,7 @@
 		};
 		2D2B4A19209C5B9500CE5A2A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44731B862CEC7DF56F79E0E4 /* Pods-CobaCallUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -526,6 +666,7 @@
 		};
 		2D2B4A1A209C5B9500CE5A2A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C573204D337E235DFB64EF85 /* Pods-CobaCallUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

@@ -1,0 +1,13 @@
+/* 
+  Localizable.strings
+  QCall
+
+  Created by Halodoc on 6/22/17.
+  Copyright © 2017 qiscus. All rights reserved.
+*/
+
+// CallVC.swift
+"VIDEO_CALL" = "VIDEO CALL";
+"VOICE_CALL" = "VOICE CALL";
+"CALLING" = "Calling";
+"INCOMING" = "Panggilan Masuk";

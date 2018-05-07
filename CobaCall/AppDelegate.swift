@@ -7,14 +7,17 @@
 //
 
 import UIKit
+import QiscusCallSDKWrapper
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
+    var callEnggine: CallSDK? = CallSDK()
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+        self.callEnggine?.setup()
         // Override point for customization after application launch.
         return true
     }

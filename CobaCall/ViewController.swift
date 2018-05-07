@@ -10,16 +10,27 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var textField: UITextField!
+    var callSdk = CallSDK()
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+      
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+      
     }
 
-
+    @IBAction func videoButton(_ sender: Any) {
+        callSdk.call(WithUser: textField.text!)
+    }
+    @IBAction func audioButton(_ sender: Any) {
+    callSdk.call(WithUser: textField.text!, video: false)
+    }
+    
+    @IBAction func reciveCall(_ sender: Any) {
+          callSdk.receiveCall(WithUser: textField.text!)
+    }
 }
 

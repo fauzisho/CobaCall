@@ -1,0 +1,6 @@
+framework module QiscusCallSDKWrapper {
+  umbrella header "QiscusCallSDKWrapper-umbrella.h"
+
+  export *
+  module * { export * }
+}
